@@ -1,0 +1,17 @@
+def extrair_vogais(texto):
+    # Definindo o conjunto de vogais
+    vogais = "aeiouAEIOU"
+    # Filtrando e coletando as vogais presentes no texto
+    vogais_encontradas = [char for char in texto if char in vogais]
+    # Retornando a lista de vogais encontradas como uma string
+    return ''.join(vogais_encontradas)
+
+# Exemplo de uso
+texto = "Sol radiante, risos vibrantes!"
+vogais = extrair_vogais(texto)
+print("Vogais encontradas:", vogais)
+
+
+Vogais encontradas: oaiaeioiae
+
+=== Code Execution Successful ===
