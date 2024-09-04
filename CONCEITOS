@@ -52,4 +52,49 @@ elif x == 9:
 else:
     print("x é menor que 9")
 
+def bubble_sort(arr):
+    n = len(arr)
+    # Percorre todos os elementos do array
+    for i in range(n):
+        # Últimos i elementos já estão na posição correta
+        for j in range(0, n - i - 1):
+            # Percorre o array do início até o penúltimo elemento não ordenado
+            if arr[j] > arr[j + 1]:
+                # Troca se o elemento encontrado for maior que o próximo elemento
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+# Exemplo de uso
+lista = [64, 34, 25, 12, 22, 11, 90]
+sorted_lista = bubble_sort(lista)
+print("Lista ordenada:", sorted_lista)
+
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
+def extrair_vogais(texto):
+    # Definindo o conjunto de vogais
+    vogais = "aeiouAEIOU"
+    # Filtrando e coletando as vogais presentes no texto
+    vogais_encontradas = [char for char in texto if char in vogais]
+    # Retornando a lista de vogais encontradas como uma string
+    return ''.join(vogais_encontradas)
+
+# Exemplo de uso
+texto = "Sol radiante, risos vibrantes!"
+vogais = extrair_vogais(texto)
+print("Vogais encontradas:", vogais)
+Try programiz.pro
+Vogais encontradas: oaiaeioiae
+
+=== Code Execution Successful ===
+
+
+todos os codigos ficam 
+Try programiz.pro
+Vogais encontradas: oaiaeioiae
+Lista ordenada: [11, 12, 22, 25, 34, 64, 90]
+
+=== Code Execution Successful ===
 
