@@ -24,3 +24,32 @@ class Main {
     }
 }
 exemplo de codigo javaScript: console.log("Hello world!");
+
+
+Estrutura de Repetição:
+
+1ª) for i in range(7):
+  print (i)
+
+2º) count = 3
+while count < 2:
+    print (conut)
+    count +=1
+
+Estrutura de Tomada de Decisão:
+
+1ª) x = 10
+if x > 10:
+    print("x é maior que 10")
+elif x ==10:
+    print ("x é igual a 10")
+
+2ª)x = 3
+if x> 9:
+    print("x é maior que 9")
+elif x == 9:
+    print("x é igual a 9")
+else:
+    print("x é menor que 9")
+
+
