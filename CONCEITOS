@@ -99,3 +99,83 @@ Lista ordenada: [11, 12, 22, 25, 34, 64, 90]
 === Code Execution Successful ===
 
 segue link com codigos de forma separada e prints em links https://github.com/CarlosfelipeDuran/777bank/blob/main/vogais   /    https://github.com/CarlosfelipeDuran/777bank/blob/main/sequencia%20bubble%20sort  /  
+
+
+semana 6
+1 questão: print("carlos felipe duran", "21", "rio de janeiro", sep="; ")
+    
+carlos felipe duran; 21; rio de janeiro
+
+2 questão 
+def calcular_somar():
+    num1 = float(input("pão: "))
+    num2 = float (input("canre:"))
+    num3 = float (input("coca cola:"))
+    resultado = num1 + num2 + num3
+    print("resultado:", resultado)
+    
+    
+    
+calcular_somar()
+pão: 2
+canre:4
+coca cola:2
+resultado: 8.0
+
+=== Code Execution Successful ===
+
+
+3 questão 
+
+def listar_compras():
+  itens = input("Digite os itens da lista de compras (separados por vígula): ")
+  lista = [item.strip() for item in itens.split(',')]
+  for i, item in enumerate(lista, start=1):
+    print(f"Item {i}: {item}")
+
+listar_compras()
+Digite os itens da lista de compras (separados por vígula): carne, ovo, pão
+Item 1: carne
+Item 2: ovo
+Item 3: pão
+
+=== Code Execution Successful ===
+
+
+4 questão
+
+def converter_celsius_para_fahrenheit():
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+
+converter_celsius_para_fahrenheit()
+Digite a temperatura em graus Celsius: 35
+A temperatura em Fahrenheit é: 95.0
+
+=== Code Execution Successful ===
+
+5 questão
+
+
+def coletar_nomes():
+    nomes = [] 
+
+    while True:
+        nome = input("Digite um nome (ou 'sair' para terminar): ")
+        if nome == 'sair':
+            break  
+        nomes.append(nome)  
+
+    for nome in nomes:
+        print(nome)
+
+coletar_nomes()
+Digite um nome (ou 'sair' para terminar): carlos
+Digite um nome (ou 'sair' para terminar): joão
+Digite um nome (ou 'sair' para terminar): sair
+carlos
+joão
+
+=== Code Execution Successful ===
+
